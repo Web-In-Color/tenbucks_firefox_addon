@@ -1,0 +1,29 @@
+{
+    "title": "tenbucks",
+    "name": "tenbucks",
+    "version": "0.0.1",
+    "description": "Use tenbucks in standalone mode",
+    "main": "index.js",
+    "author": "gary@webincolor.fr",
+    "engines": {
+        "firefox": ">=38.0a1",
+        "fennec": ">=38.0a1"
+    },
+    "license": "MIT",
+    "keywords": [
+        "jetpack"
+    ],
+    "preferences": [{
+        "name": "locale",
+        "type": "menulist",
+        "title": "Language",
+        "value": "en",
+        "options": [{
+            "value": "en",
+            "label": "English"
+        }, {
+            "value": "fr",
+            "label": "Français"
+        }]
+    }]
+}
